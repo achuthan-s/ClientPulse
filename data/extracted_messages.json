@@ -1,0 +1,785 @@
+[
+  {
+    "message_id": "msg_acct_innovate_000",
+    "account_id": "acct_innovate",
+    "date": "2023-01-01T09:00:00Z",
+    "channel": "email",
+    "text": "Hi team, great kickoff meeting yesterday. Looking forward to getting started.",
+    "sentiment": 0.6,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_techcorp_000",
+    "account_id": "acct_techcorp",
+    "date": "2023-01-01T09:00:00Z",
+    "channel": "email",
+    "text": "Excited to partner with you on this integration. The proposed timeline looks good.",
+    "sentiment": 0.6,
+    "topics": [
+      "timeline"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_cloudsync_000",
+    "account_id": "acct_cloudsync",
+    "date": "2023-01-01T09:00:00Z",
+    "channel": "email",
+    "text": "Welcome to the platform! We are ready to start.",
+    "sentiment": 0.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_dataflow_000",
+    "account_id": "acct_dataflow",
+    "date": "2023-01-01T09:00:00Z",
+    "channel": "email",
+    "text": "Contract signed. Let's get going.",
+    "sentiment": 0.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_cloudsync_001",
+    "account_id": "acct_cloudsync",
+    "date": "2023-01-11T09:00:00Z",
+    "channel": "meeting_notes",
+    "text": "Initial sync went well. Client is slowly migrating users.",
+    "sentiment": 0.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_innovate_001",
+    "account_id": "acct_innovate",
+    "date": "2023-01-13T09:00:00Z",
+    "channel": "support_ticket",
+    "text": "Can you help me reset my password? Thanks!",
+    "sentiment": 0.6,
+    "topics": [
+      "authentication"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_dataflow_001",
+    "account_id": "acct_dataflow",
+    "date": "2023-01-13T09:00:00Z",
+    "channel": "meeting_notes",
+    "text": "Quick kickoff. Client doesn't need much handholding. They will self-serve.",
+    "sentiment": 0.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_techcorp_001",
+    "account_id": "acct_techcorp",
+    "date": "2023-01-15T09:00:00Z",
+    "channel": "meeting_notes",
+    "text": "Kickoff: Alignment on phase 1 deliverables. Client seemed optimistic.",
+    "sentiment": 0.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_cloudsync_002",
+    "account_id": "acct_cloudsync",
+    "date": "2023-01-21T09:00:00Z",
+    "channel": "email",
+    "text": "Migration of the first 100 users was successful. Thanks for the documentation.",
+    "sentiment": 0.6,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_cloudsync_003",
+    "account_id": "acct_cloudsync",
+    "date": "2023-01-21T21:00:00Z",
+    "channel": "support_ticket",
+    "text": "We are getting reports of slow load times from the migrated users.",
+    "sentiment": 0.0,
+    "topics": [
+      "reporting"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_cloudsync_004",
+    "account_id": "acct_cloudsync",
+    "date": "2023-01-22T09:00:00Z",
+    "channel": "support_ticket",
+    "text": "URGENT: The entire system is locked up. Nobody can access their files.",
+    "sentiment": 0.0,
+    "topics": [
+      "system_stability"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_cloudsync_005",
+    "account_id": "acct_cloudsync",
+    "date": "2023-01-22T21:00:00Z",
+    "channel": "email",
+    "text": "What is the status of the outage? Our CEO is asking.",
+    "sentiment": -0.7,
+    "topics": [
+      "system_stability"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_cloudsync_006",
+    "account_id": "acct_cloudsync",
+    "date": "2023-01-23T09:00:00Z",
+    "channel": "email",
+    "text": "This is causing massive disruption. We need a post-mortem on why this happened.",
+    "sentiment": -0.7,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_innovate_002",
+    "account_id": "acct_innovate",
+    "date": "2023-01-25T09:00:00Z",
+    "channel": "email",
+    "text": "Password reset worked. The new dashboard looks fantastic, by the way.",
+    "sentiment": 0.6,
+    "topics": [
+      "authentication",
+      "reporting"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_dataflow_002",
+    "account_id": "acct_dataflow",
+    "date": "2023-01-25T09:00:00Z",
+    "channel": "support_ticket",
+    "text": "How do I invite users?",
+    "sentiment": 0.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_techcorp_002",
+    "account_id": "acct_techcorp",
+    "date": "2023-01-28T09:00:00Z",
+    "channel": "email",
+    "text": "Just checking in, are we still on track for the Friday delivery?",
+    "sentiment": 0.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_innovate_003",
+    "account_id": "acct_innovate",
+    "date": "2023-02-03T09:00:00Z",
+    "channel": "meeting_notes",
+    "text": "Monthly sync: Client is happy with progress. No blockers. Requested a minor color tweak to the reports.",
+    "sentiment": 0.0,
+    "topics": [
+      "reporting"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_dataflow_003",
+    "account_id": "acct_dataflow",
+    "date": "2023-02-06T09:00:00Z",
+    "channel": "email",
+    "text": "Thanks, found it in the docs.",
+    "sentiment": 0.6,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_techcorp_003",
+    "account_id": "acct_techcorp",
+    "date": "2023-02-09T09:00:00Z",
+    "channel": "email",
+    "text": "Understood that there is a slight delay. Please make sure we hit Wednesday next week.",
+    "sentiment": -0.7,
+    "topics": [
+      "timeline"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_innovate_004",
+    "account_id": "acct_innovate",
+    "date": "2023-02-15T09:00:00Z",
+    "channel": "email",
+    "text": "Thanks for turning around that color tweak so quickly!",
+    "sentiment": 0.6,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_dataflow_004",
+    "account_id": "acct_dataflow",
+    "date": "2023-02-18T09:00:00Z",
+    "channel": "meeting_notes",
+    "text": "Quarterly check-in: Client says everything is fine. Very brief call, lasting 5 minutes.",
+    "sentiment": 0.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_techcorp_004",
+    "account_id": "acct_techcorp",
+    "date": "2023-02-20T09:00:00Z",
+    "channel": "support_ticket",
+    "text": "The Phase 1 build is missing the custom API endpoints we discussed.",
+    "sentiment": -0.7,
+    "topics": [
+      "deliverables"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_innovate_005",
+    "account_id": "acct_innovate",
+    "date": "2023-02-27T09:00:00Z",
+    "channel": "support_ticket",
+    "text": "We're seeing a slight delay in data sync this morning. Can you check?",
+    "sentiment": -0.7,
+    "topics": [
+      "timeline"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_techcorp_005",
+    "account_id": "acct_techcorp",
+    "date": "2023-03-02T09:00:00Z",
+    "channel": "email",
+    "text": "Your team is saying the custom API is out of scope. We explicitly discussed this during the sales process. This is unacceptable.",
+    "sentiment": -0.7,
+    "topics": [
+      "deliverables"
+    ],
+    "scope_dispute_signal": true,
+    "reason": "Client explicitly mentioned missing deliverables or disputed the agreed scope."
+  },
+  {
+    "message_id": "msg_acct_dataflow_005",
+    "account_id": "acct_dataflow",
+    "date": "2023-03-02T09:00:00Z",
+    "channel": "email",
+    "text": "Please update our billing contact to Sarah.",
+    "sentiment": 0.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_innovate_006",
+    "account_id": "acct_innovate",
+    "date": "2023-03-08T09:00:00Z",
+    "channel": "support_ticket",
+    "text": "Disregard last message, looks like it was on our end. All good!",
+    "sentiment": 0.6,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_techcorp_006",
+    "account_id": "acct_techcorp",
+    "date": "2023-03-11T09:00:00Z",
+    "channel": "meeting_notes",
+    "text": "Escalation call: Client is frustrated about scope. Agreed to build 2 of the 5 endpoints at no cost. Client is not fully satisfied but accepted.",
+    "sentiment": -0.7,
+    "topics": [
+      "deliverables"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_cloudsync_007",
+    "account_id": "acct_cloudsync",
+    "date": "2023-03-12T09:00:00Z",
+    "channel": "meeting_notes",
+    "text": "Post-mortem meeting: Explained the database indexing failure. Client appreciated the transparency but demands a credit for the downtime.",
+    "sentiment": -0.7,
+    "topics": [
+      "system_stability"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_dataflow_006",
+    "account_id": "acct_dataflow",
+    "date": "2023-03-14T09:00:00Z",
+    "channel": "support_ticket",
+    "text": "API rate limit increased?",
+    "sentiment": 0.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_techcorp_007",
+    "account_id": "acct_techcorp",
+    "date": "2023-03-19T09:00:00Z",
+    "channel": "email",
+    "text": "Thanks for the compromise, but we are still behind schedule. When will Phase 2 start?",
+    "sentiment": 0.6,
+    "topics": [
+      "timeline"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_innovate_007",
+    "account_id": "acct_innovate",
+    "date": "2023-03-20T09:00:00Z",
+    "channel": "email",
+    "text": "The Q1 review report was spot on. Our VP loved it.",
+    "sentiment": 0.6,
+    "topics": [
+      "reporting"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_cloudsync_008",
+    "account_id": "acct_cloudsync",
+    "date": "2023-03-22T09:00:00Z",
+    "channel": "email",
+    "text": "Received the SLA credit. We appreciate you making this right quickly.",
+    "sentiment": 0.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_techcorp_008",
+    "account_id": "acct_techcorp",
+    "date": "2023-03-26T09:00:00Z",
+    "channel": "support_ticket",
+    "text": "System threw a 500 error when we tried to test the new endpoints. Please fix ASAP.",
+    "sentiment": -0.7,
+    "topics": [
+      "deliverables",
+      "system_stability"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_dataflow_007",
+    "account_id": "acct_dataflow",
+    "date": "2023-03-26T09:00:00Z",
+    "channel": "email",
+    "text": "Thanks for the limit increase.",
+    "sentiment": 0.6,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_innovate_008",
+    "account_id": "acct_innovate",
+    "date": "2023-04-01T09:00:00Z",
+    "channel": "meeting_notes",
+    "text": "Monthly sync: Everything running smoothly. Discussed potential expansion next quarter.",
+    "sentiment": 0.6,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_techcorp_009",
+    "account_id": "acct_techcorp",
+    "date": "2023-04-01T09:00:00Z",
+    "channel": "email",
+    "text": "It has been 48 hours and the endpoints are still down. We have our own deadlines to meet.",
+    "sentiment": -0.7,
+    "topics": [
+      "deliverables",
+      "system_stability"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_cloudsync_009",
+    "account_id": "acct_cloudsync",
+    "date": "2023-04-01T09:00:00Z",
+    "channel": "support_ticket",
+    "text": "Just a minor bug: the export button is greyed out for some admins.",
+    "sentiment": 0.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_techcorp_010",
+    "account_id": "acct_techcorp",
+    "date": "2023-04-06T09:00:00Z",
+    "channel": "email",
+    "text": "Another week, another delay. I need to escalate this to your leadership. Who is the VP of Customer Success?",
+    "sentiment": -0.7,
+    "topics": [
+      "timeline"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_dataflow_008",
+    "account_id": "acct_dataflow",
+    "date": "2023-04-07T09:00:00Z",
+    "channel": "meeting_notes",
+    "text": "Check-in: Still doing fine. No new requests.",
+    "sentiment": 0.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_innovate_009",
+    "account_id": "acct_innovate",
+    "date": "2023-04-10T09:00:00Z",
+    "channel": "email",
+    "text": "Can we schedule a call next week to discuss adding 5 more seats?",
+    "sentiment": 0.0,
+    "topics": [
+      "timeline"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_techcorp_011",
+    "account_id": "acct_techcorp",
+    "date": "2023-04-10T09:00:00Z",
+    "channel": "meeting_notes",
+    "text": "Executive sync: Client threatened to cancel. We promised a dedicated engineer to fix the issues.",
+    "sentiment": -1.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_cloudsync_010",
+    "account_id": "acct_cloudsync",
+    "date": "2023-04-11T09:00:00Z",
+    "channel": "email",
+    "text": "Thanks for the quick fix on the export bug.",
+    "sentiment": 0.6,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_techcorp_012",
+    "account_id": "acct_techcorp",
+    "date": "2023-04-13T09:00:00Z",
+    "channel": "support_ticket",
+    "text": "The dedicated engineer hasn't responded to my last three emails.",
+    "sentiment": 0.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_techcorp_013",
+    "account_id": "acct_techcorp",
+    "date": "2023-04-15T09:00:00Z",
+    "channel": "email",
+    "text": "This implementation is a disaster. We are spending more time managing your team than doing our jobs. We are reviewing our contract termination clauses.",
+    "sentiment": -0.7,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_techcorp_014",
+    "account_id": "acct_techcorp",
+    "date": "2023-04-17T09:00:00Z",
+    "channel": "email",
+    "text": "We are officially pausing all payments until the agreed upon scope is delivered in full.",
+    "sentiment": -1.0,
+    "topics": [
+      "deliverables"
+    ],
+    "scope_dispute_signal": true,
+    "reason": "Client explicitly mentioned missing deliverables or disputed the agreed scope."
+  },
+  {
+    "message_id": "msg_acct_dataflow_009",
+    "account_id": "acct_dataflow",
+    "date": "2023-04-19T09:00:00Z",
+    "channel": "email",
+    "text": "Can you send the latest compliance report?",
+    "sentiment": 0.0,
+    "topics": [
+      "reporting"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_cloudsync_011",
+    "account_id": "acct_cloudsync",
+    "date": "2023-04-21T09:00:00Z",
+    "channel": "meeting_notes",
+    "text": "Monthly sync: Stability has been great since the incident. Trust is rebuilding.",
+    "sentiment": 0.6,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_innovate_010",
+    "account_id": "acct_innovate",
+    "date": "2023-04-22T09:00:00Z",
+    "channel": "email",
+    "text": "Great call today. Let's proceed with the license expansion.",
+    "sentiment": 0.6,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_cloudsync_012",
+    "account_id": "acct_cloudsync",
+    "date": "2023-05-01T09:00:00Z",
+    "channel": "email",
+    "text": "We are ready to resume the migration for the remaining 500 users.",
+    "sentiment": 0.0,
+    "topics": [
+      "system_stability"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_dataflow_010",
+    "account_id": "acct_dataflow",
+    "date": "2023-05-01T09:00:00Z",
+    "channel": "email",
+    "text": "Thanks for the report.",
+    "sentiment": 0.6,
+    "topics": [
+      "reporting"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_dataflow_011",
+    "account_id": "acct_dataflow",
+    "date": "2023-05-02T09:00:00Z",
+    "channel": "support_ticket",
+    "text": "CRITICAL: Security vulnerability detected in your agent integration. Our InfoSec team is blocking your application.",
+    "sentiment": -0.7,
+    "topics": [
+      "security"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_dataflow_012",
+    "account_id": "acct_dataflow",
+    "date": "2023-05-03T09:00:00Z",
+    "channel": "email",
+    "text": "We cannot use your software until a full independent audit is provided. This is a massive breach of our vendor requirements.",
+    "sentiment": -1.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_innovate_011",
+    "account_id": "acct_innovate",
+    "date": "2023-05-04T09:00:00Z",
+    "channel": "support_ticket",
+    "text": "Need help assigning the new seats to the marketing team.",
+    "sentiment": 0.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_dataflow_013",
+    "account_id": "acct_dataflow",
+    "date": "2023-05-04T09:00:00Z",
+    "channel": "meeting_notes",
+    "text": "Emergency call: InfoSec completely blocked usage. They are demanding a remediation plan within 24 hours or they will rip us out.",
+    "sentiment": 0.0,
+    "topics": [
+      "security"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_dataflow_014",
+    "account_id": "acct_dataflow",
+    "date": "2023-05-05T09:00:00Z",
+    "channel": "email",
+    "text": "Your proposed remediation plan is insufficient. We are migrating to a competitor immediately.",
+    "sentiment": -1.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_cloudsync_013",
+    "account_id": "acct_cloudsync",
+    "date": "2023-05-11T09:00:00Z",
+    "channel": "support_ticket",
+    "text": "Migration complete. No issues this time!",
+    "sentiment": 0.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_innovate_012",
+    "account_id": "acct_innovate",
+    "date": "2023-05-13T09:00:00Z",
+    "channel": "email",
+    "text": "All seats assigned. The onboarding flow was super smooth. Thanks!",
+    "sentiment": 0.6,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_cloudsync_014",
+    "account_id": "acct_cloudsync",
+    "date": "2023-05-21T09:00:00Z",
+    "channel": "email",
+    "text": "Really appreciate the white-glove support during this second migration phase. Great job team.",
+    "sentiment": 0.6,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_innovate_013",
+    "account_id": "acct_innovate",
+    "date": "2023-05-25T09:00:00Z",
+    "channel": "meeting_notes",
+    "text": "Quarterly Business Review: Client rated us 10/10. Renewing contract early.",
+    "sentiment": 0.0,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  },
+  {
+    "message_id": "msg_acct_innovate_014",
+    "account_id": "acct_innovate",
+    "date": "2023-06-06T09:00:00Z",
+    "channel": "email",
+    "text": "Signed the renewal contract. Thanks for a great first half of the year!",
+    "sentiment": 0.6,
+    "topics": [
+      "general_update"
+    ],
+    "scope_dispute_signal": false,
+    "reason": "No scope issues detected in this message."
+  }
+]

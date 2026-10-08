@@ -1,0 +1,632 @@
+:root {
+  --bg: #07111f;
+  --bg-soft: #0f1d2e;
+  --panel: rgba(15, 29, 46, 0.9);
+  --panel-alt: #122338;
+  --card: rgba(16, 34, 54, 0.9);
+  --line: rgba(148, 163, 184, 0.22);
+  --text: #e5eefb;
+  --muted: #a9b8d0;
+  --primary: #60a5fa;
+  --primary-soft: rgba(96, 165, 250, 0.14);
+  --success: #34d399;
+  --success-soft: rgba(52, 211, 153, 0.12);
+  --warning: #fbbf24;
+  --warning-soft: rgba(251, 191, 36, 0.12);
+  --danger: #f87171;
+  --danger-soft: rgba(248, 113, 113, 0.12);
+  --improving: #818cf8;
+  --improving-soft: rgba(129, 140, 248, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+  font-family: Inter, "Segoe UI", sans-serif;
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(96, 165, 250, 0.17),
+      transparent 28%
+    ),
+    linear-gradient(135deg, #06111d 0%, #0b1627 35%, #0e1f33 100%);
+  color: var(--text);
+}
+
+body {
+  min-height: 100vh;
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 36px;
+  border-bottom: 1px solid var(--line);
+  background: rgba(7, 17, 31, 0.7);
+  backdrop-filter: blur(10px);
+}
+
+.eyebrow {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 11px;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.eyebrow.accent {
+  color: #93c5fd;
+}
+
+.topbar h1,
+.panel h2 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.nav {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.nav a:hover {
+  color: var(--text);
+}
+
+.page {
+  padding: 24px 20px 40px;
+}
+
+.panel {
+  background: rgba(15, 29, 46, 0.88);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2);
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.hero-panel {
+  display: grid;
+  gap: 20px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 18px 16px;
+}
+
+.card span {
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.card strong {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.section-header h2 {
+  margin: 0;
+}
+
+.section-header span {
+  color: var(--muted);
+}
+
+.flag-list {
+  display: grid;
+  gap: 12px;
+}
+
+.flag-row {
+  display: grid;
+  grid-template-columns: 180px 160px minmax(0, 1fr);
+  gap: 16px;
+  align-items: center;
+  background: rgba(11, 22, 35, 0.85);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 18px 16px;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.account-name {
+  font-weight: 700;
+}
+
+.flag-meta {
+  color: var(--muted);
+  font-size: 0.8rem;
+  margin-top: 6px;
+}
+
+.risk-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 10px;
+  border-radius: 999px;
+  background: rgba(248, 113, 113, 0.12);
+  color: #fecaca;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border: 1px solid rgba(248, 113, 113, 0.35);
+}
+
+.flag-text {
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.form-panel,
+.response-panel {
+  display: grid;
+  gap: 18px;
+}
+
+.field {
+  display: grid;
+  gap: 8px;
+}
+
+label {
+  font-weight: 600;
+  color: var(--muted);
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(8, 16, 27, 0.8);
+  color: var(--text);
+  padding: 12px 14px;
+  font: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.primary-btn {
+  border: none;
+  border-radius: 12px;
+  padding: 12px 18px;
+  background: linear-gradient(135deg, #60a5fa, #2563eb);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.response-box {
+  background: rgba(4, 11, 18, 0.9);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 18px;
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
+
+.evidence-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.evidence-item {
+  background: rgba(9, 18, 29, 0.9);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+
+.evidence-meta {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  color: var(--muted);
+  font-size: 0.75rem;
+  margin-bottom: 8px;
+}
+
+.evidence-item p {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+@media (max-width: 780px) {
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .flag-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===========================================================================
+   ACCOUNT LIST (Step 1)
+   Three-column grid: info | badge+metrics | sparkline chart
+   Hover lifts the row to signal it's clickable.
+=========================================================================== */
+.account-list {
+  display: grid;
+  gap: 10px;
+}
+
+.account-row {
+  display: grid;
+  /* info column fixed at 280px; badge column auto; chart fills the rest */
+  grid-template-columns: 280px 160px 1fr;
+  gap: 20px;
+  align-items: center;
+  background: rgba(11, 22, 35, 0.85);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 18px 20px;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.account-row:hover {
+  border-color: rgba(96, 165, 250, 0.45);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.account-row-info {
+  min-width: 0; /* allow text truncation inside grid */
+}
+
+.account-row-badge {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.account-row-chart {
+  min-width: 0;
+}
+
+/* Sparkline container — constrained height, no overflow */
+.sparkline-wrap {
+  width: 100%;
+  height: 48px;
+}
+
+/* Trend slope/drift chips below the badge */
+.trend-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 0.7rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ===========================================================================
+   RISK BADGE COLOR VARIANTS
+   The base .risk-badge class (already in the file) provides shape/padding.
+   These subclasses apply the correct color per risk level.
+=========================================================================== */
+.risk-badge.risk-high {
+  background: var(--danger-soft);
+  color: #fecaca;
+  border-color: rgba(248, 113, 113, 0.35);
+}
+
+.risk-badge.risk-watch {
+  background: var(--warning-soft);
+  color: #fde68a;
+  border-color: rgba(251, 191, 36, 0.35);
+}
+
+.risk-badge.risk-stable {
+  background: var(--success-soft);
+  color: #6ee7b7;
+  border-color: rgba(52, 211, 153, 0.3);
+}
+
+.risk-badge.risk-improving {
+  background: var(--improving-soft);
+  color: #c7d2fe;
+  border-color: rgba(129, 140, 248, 0.35);
+}
+
+/* ===========================================================================
+   STAT CARD ACCENT VARIANTS (Step 1)
+   Colored left-border accent on the summary tiles.
+=========================================================================== */
+.stat-accent-danger  { border-left: 3px solid var(--danger);  }
+.stat-accent-warning { border-left: 3px solid var(--warning); }
+.stat-accent-success { border-left: 3px solid var(--success); }
+
+/* ===========================================================================
+   ACCOUNT DETAIL — TIMELINE CHART (Step 2)
+=========================================================================== */
+.chart-wrap {
+  width: 100%;
+  height: 260px;
+  margin-top: 12px;
+}
+
+/* Decline annotation label on the chart */
+.decline-label {
+  fill: var(--danger);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* ===========================================================================
+   EVIDENCE LIST — flagged messages with highlighted phrases (Step 2)
+=========================================================================== */
+.evidence-reason {
+  margin-top: 6px;
+  font-size: 0.75rem;
+  color: var(--warning);
+  font-style: italic;
+}
+
+/* Highlighted key phrase within evidence text */
+mark.key-phrase {
+  background: rgba(251, 191, 36, 0.2);
+  color: #fde68a;
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
+/* Scope dispute badge inline with evidence meta */
+.scope-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(248, 113, 113, 0.15);
+  color: #fecaca;
+  border: 1px solid rgba(248, 113, 113, 0.3);
+  border-radius: 6px;
+  padding: 2px 7px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+/* ===========================================================================
+   TIME MACHINE SLIDER (Step 3)
+=========================================================================== */
+.time-machine-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px 20px;
+  background: rgba(11, 22, 35, 0.7);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  margin-bottom: 16px;
+}
+
+.time-machine-bar label {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.time-machine-bar input[type="range"] {
+  width: 100%;
+  accent-color: var(--primary);
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.time-machine-date {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+/* Label shown when the account first becomes flagged in the slider */
+.flag-moment-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(248, 113, 113, 0.15);
+  color: #fecaca;
+  border: 1px solid rgba(248, 113, 113, 0.3);
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  animation: fadeIn 0.3s ease;
+}
+
+/* ===========================================================================
+   COPILOT (Step 4) — citation chips and grounding states
+=========================================================================== */
+select {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(8, 16, 27, 0.8);
+  color: var(--text);
+  padding: 12px 14px;
+  font: inherit;
+  cursor: pointer;
+}
+
+.suggested-questions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.suggested-q-btn {
+  background: var(--primary-soft);
+  border: 1px solid rgba(96, 165, 250, 0.3);
+  border-radius: 999px;
+  color: var(--primary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 5px 12px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  white-space: nowrap;
+}
+
+.suggested-q-btn:hover {
+  background: rgba(96, 165, 250, 0.22);
+}
+
+/* Citation chip — clickable, scrolls to the referenced evidence card */
+.citation-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(96, 165, 250, 0.12);
+  border: 1px solid rgba(96, 165, 250, 0.3);
+  border-radius: 999px;
+  color: var(--primary);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  cursor: pointer;
+  transition: background 0.15s;
+  white-space: nowrap;
+}
+
+.citation-chip:hover {
+  background: rgba(96, 165, 250, 0.22);
+}
+
+/* "Not enough evidence" answer — visually distinct from a grounded answer */
+.answer-ungrounded {
+  background: rgba(251, 191, 36, 0.07);
+  border: 1px solid rgba(251, 191, 36, 0.25);
+  border-left: 3px solid var(--warning);
+  color: #fde68a;
+}
+
+.answer-grounded {
+  border-left: 3px solid var(--success);
+}
+
+/* ===========================================================================
+   EVALUATION CARD (Step 5)
+=========================================================================== */
+.eval-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.eval-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: rgba(11, 22, 35, 0.6);
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  font-size: 0.85rem;
+}
+
+.eval-row .eval-account {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.eval-correct { color: var(--success); font-weight: 700; }
+.eval-wrong   { color: var(--danger);  font-weight: 700; }
+
+/* ===========================================================================
+   DRAFT PANEL (Step 6)
+=========================================================================== */
+.draft-box {
+  background: rgba(52, 211, 153, 0.05);
+  border: 1px solid rgba(52, 211, 153, 0.2);
+  border-left: 3px solid var(--success);
+  border-radius: 12px;
+  padding: 18px;
+  white-space: pre-wrap;
+  line-height: 1.7;
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+/* ===========================================================================
+   RESPONSIVE OVERRIDES FOR NEW COMPONENTS
+=========================================================================== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 780px) {
+  .account-row {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .account-row-chart {
+    height: 60px;
+  }
+}
+
